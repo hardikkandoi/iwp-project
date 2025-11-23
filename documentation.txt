@@ -1,0 +1,80 @@
+Website Documentation
+This documentation provides a comprehensive overview of the simple multi-page portfolio website created using HTML and CSS only. The site consists of three interconnected pages: Home, About, and Contact. It is designed to be lightweight, responsive, and easy to navigate.
+
+Website Overview
+Purpose:
+ A basic personal portfolio website to showcase information about the owner, including an introduction, background, and contact details.
+Theme: Clean and professional, with a green header , dark navigation bar , and light background .
+Functionality:
+ Fully static with no JavaScript; relies on HTML for structure and CSS for styling. Navigation links allow seamless movement between pages.
+Responsiveness:
+ Uses viewport meta tags and flexible layouts (e.g., max-width containers) to adapt to different screen sizes, including mobile devices.
+File Structure
+Files Required: 
+Three HTML files (each containing embedded CSS for simplicity).
+index.html: Home page.
+about.html: About page.
+contact.html: Contact page.
+No External Dependencies: 
+All styles are inline within the <style> tags in each file. No images, external CSS files, or scripts are used.
+Storage: Save all files in the same directory for relative links to work (e.g., href="about.html").
+Pages Description
+Home Page (index.html):
+Displays a welcome message and brief overview of the portfolio.
+Includes a header with the site title, navigation menu, main content area, and footer.
+About Page (about.html):
+Provides personal information about the website owner, such as interests and background.
+Mirrors the structure of the Home page for consistency.
+Contact Page (contact.html):
+Lists contact details (e.g., email and phone) in a bulleted list.
+Includes a call-to-action for users to reach out.
+Common Elements Across Pages:
+Header: Green background with centered title.
+Navigation: Horizontal bar with links to all pages; hover effects for interactivity.
+Container: Centered content area with max-width for readability.
+Footer: Fixed at the bottom with copyright notice.
+Technologies Used
+HTML5: For semantic structure (e.g., <header>, <nav>, <footer>, <div>).
+CSS3: For styling, including colors, fonts, layouts, and hover effects.
+Key CSS Properties: font-family (Arial), background-color, padding, margin, float for navigation, position: fixed for footer.
+No Other Technologies: Pure HTML and CSS; no frameworks, libraries, or server-side code.
+How to Run the Website
+Setup:
+Create three files as specified in the File Structure section.
+Copy the provided code into each file.
+Execution:
+Open index.html in any modern web browser (e.g., Chrome, Firefox, Safari).
+Navigate between pages using the menu links.
+Testing:
+Verify links work by clicking them.
+Resize the browser window to check responsiveness.
+Ensure the footer stays at the bottom (fixed position).
+Hosting: Upload files to a web server or use a local server (e.g., via Python's http.server) for testing. No special hosting requirements.
+Styling and Design
+Color Scheme: Green for headers, dark gray for navigation and footer, light gray for body background.
+Typography: Arial font for readability; default sizes for headings and paragraphs.
+Layout:
+Header: Full-width with padding.
+Navigation: Horizontal list with floated links.
+Content: Centered container with padding for breathing room.
+Footer: Fixed at bottom for consistency across pages.
+Hover Effects: Navigation links change background and text color on hover for user feedback.
+Accessibility: Basic semantic HTML (e.g., proper headings) and color contrast for usability.
+Navigation
+Menu Structure: A simple <nav> element with anchor tags linking to each page.
+Behavior: Links are relative (e.g., href="about.html"), so all files must be in the same directory.
+Active State: No dynamic highlighting; users can infer current page from URL or content.
+Limitations: No back button or breadcrumbs; relies on browser navigation.
+Customization
+Changing Content: Edit text within <h1>, <h2>, <p>, and <ul> tags in each file.
+Styling Adjustments: Modify CSS in the <style> block (e.g., change colors by updating hex values like #4CAF50).
+Adding Pages: Create a new HTML file with the same structure, then add a link to the navigation in all files.
+Extracting CSS: Move styles to a separate .css file and link it via <link rel="stylesheet" href="styles.css"> for better organization.
+Enhancements: Add images by including <img> tags, or improve responsiveness with media queries (e.g., @media (max-width: 600px)).
+Limitations
+Static Nature: No dynamic content, forms, or interactivity beyond links and hover effects.
+No JavaScript: Cannot handle user inputs (e.g., contact forms require external services like email links).
+Browser Compatibility: Works in modern browsers; older ones may not support all CSS properties.
+Scalability: Suitable for small sites; larger portfolios may need more pages or external tools.
+SEO: Basic meta tags included, but no advanced optimization.
+This documentation ensures the website is easy to understand, maintain, and extend. If you need updates or additional features, provide more details!
